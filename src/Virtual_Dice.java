@@ -17,5 +17,5 @@ public class Virtual_Dice {
 
 	}
 
-	Virtual
+	
 }
