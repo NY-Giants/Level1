@@ -45,12 +45,15 @@ public class Date_And_Time implements ActionListener {
 			System.out.println(hello);
 		}
 			if (e.getSource() == button1) {
-
+				
 				String budget_cuts = date.substring(11, 23);
 				String hour = budget_cuts.substring(0, 2);
+				System.out.println();
+				System.out.println();
 				int x = Integer.parseInt(hour);
 				if(x > 12){
 					x -= 12;
+				
 				}
 				
 				
