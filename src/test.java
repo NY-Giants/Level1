@@ -26,7 +26,7 @@ import java.io.File;
 
 /* This recipe is to be used with the Jeopardy Handout: http://bit.ly/1bvnvd4 */
 
-public class Jeopardy implements ActionListener {
+public class test implements ActionListener {
 	private JButton firstButton;
 	private JButton secondButton;
 	private JButton thirdButton, fourthButton;
@@ -37,7 +37,7 @@ public class Jeopardy implements ActionListener {
 	int buttonCount = 0;
 
 	public static void main(String[] args) {
-		new Jeopardy().start();
+		new test().start();
 	}
 
 	private void start() {
