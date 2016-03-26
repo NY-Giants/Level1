@@ -37,7 +37,7 @@ public class Cat {
 		// 2. Get the Cat to print it's name
 		cat.printName();
 		// 3. Kill the Cat!
-		for(int i = 0; i < 9; i++){
+		for(int i = 0; i < 11; i++){
 			cat.kill();
 		}
 
