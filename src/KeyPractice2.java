@@ -42,12 +42,12 @@ public void keyPressed(KeyEvent e) {
 	typedStuff +=  e.getKeyChar();
 label.setText(typedStuff);
  if(e.getKeyCode() == KeyEvent.VK_BACK_SPACE) {
-	if(updated > 1){
+	//if(updated > 1){
 	 String updated = typedStuff.substring(0, typedStuff.length()-2);
 	typedStuff = updated;
 	label.setText(updated);
 	
-	}
+	//}
  
 	
 	
